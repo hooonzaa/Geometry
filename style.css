@@ -1,14 +1,32 @@
 .adam{
-margin-left: 5px;
-}
-
-.Footer {
-    display: flex;
-    flex-direction: row;
-    padding: 3px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-
+    margin-left: 5px;
     }
-
-
+    
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        padding: 3px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    
+        }
+    
+        .input-wrapper {
+            position: relative;
+            width: 100%;
+        }
+    
+        input[readonly] {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            width: 100%;
+            cursor: not-allowed;
+        }
+    
+z
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
